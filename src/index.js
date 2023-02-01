@@ -44,7 +44,9 @@ botton.addEventListener('click', saveInput)
 const valid = document.getElementById('botton')
 function maskify() {
   const valid = validator.maskify(document.getElementById('cardnumber').value);
+  //se hace este document.getElementById, para que al finalizar o refrescar la página se borren los números del campo
   document.getElementById('cardnumber').value = ""
+  // este document es para que retome el valor de la variable valid.
   document.getElementById('cardnumber').value = valid;
   return valid
 }
