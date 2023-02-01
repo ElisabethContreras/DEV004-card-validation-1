@@ -1,12 +1,11 @@
 const validator = {
 //tiposTarjeta: function(){
 //función para identificar la marca de la tarjeta, hito 5 opcional
-    
-  //},
+//},
   //algoritmo de Luhn, utilizando el código de la parte "a"
   isValid(creditCardNumber){
     //Para invertir el array utilicé el .trim para que no considere los espacio vacios en el comienzo y final
-    //el .split para dividir el string en subcadenas, es decir que con esto separo los valores
+    //el .split para dividir el string en subcadenas, es decir que con esto separo los valores creando una matriz.
     // y el . reverse para revertir el array una vez dividido
     const arrayInvertido = creditCardNumber.trim().split("").reverse();
     // en arrayPar se usó el .filter para crear un nuevo array con los elementos que cumplan la condición impuesta en la función
@@ -44,11 +43,19 @@ const validator = {
       return false;
     }
   },
-  maskify(){
-
+  maskify(creditCardNumber){
+    // Se pone un número negativo dentro de los parámetros para que comience desde atrás. Esta variable guardará los últimos 4 caracteres de la cadena.
+    const cuatroUltimos = creditCardNumber.slice(-4)
+    //console.log(cuatroUltimos);
+    let numeral = ""
+    for(let i = 0; i < creditCardNumber.length; i++){
+      numeral = numeral + "#"
+    }
+    //console.log(numeral)
+    const nuevoNumeral = numeral.slice(0, numeral.length-4)
+    const resultado = nuevoNumeral + cuatroUltimos;
+    //console.log(resultado)
+    return resultado
   }
 }
-
-
-
 export default validator;
