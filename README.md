@@ -241,8 +241,11 @@ para definir el producto final a nivel de experiencia y de interfaz.
 Estas preguntas sirven como guía:
 
 * Quiénes son los principales usuarios de producto.
+* Futuros padres que necesiten comprar artículos para bebés, ya sea vestimenta, artículos de aseo, juguetes, etc.
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
+* Obtener estos artículos a un buen precio y en un sólo lugar
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
+* AL entregarles todo lo necesario para los cuidados de un bebé en un solo sitio, es más simple para ellos obtener lo necesario sin tener que visitar muchos sitios, ya sea física o virtualmente. Además se les pide la verificación de su tarjeta de crédito para accederles a un descuento.
 
 Con estos requisitos cumplidos puedes
 [considerar pedir tu sesión de Project Feedback con unx coach.](#9-para-considerar-project-feedback)
