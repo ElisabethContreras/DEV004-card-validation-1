@@ -49,7 +49,7 @@ const validator = {
     //console.log(cuatroUltimos);
     let numeral = ""
     for(let i = 0; i < creditCardNumber.length; i++){
-      numeral = numeral + "#"
+      numeral = numeral + "#" 
     }
     //console.log(numeral)
     const nuevoNumeral = numeral.slice(0, numeral.length-4)
